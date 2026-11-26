@@ -7,18 +7,18 @@ class Duckfleet < Formula
   on_macos do
     on_arm do
       url "https://github.com/athvin/duck-fleet/releases/download/duckfleet-v0.4.0/duckfleet-0.4.0-aarch64-apple-darwin.tar.gz"
-      sha256 "0453f160f8052602ea2189dbab29ea4bdaf7e0f0d8ec24bb970f18cab18837e3"
+      sha256 "728d79b611ca4c7a431047ff8baa63260b9f87faa5e567ce5be2f0b729034a80"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/athvin/duck-fleet/releases/download/duckfleet-v0.4.0/duckfleet-0.4.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "21611e6408833796e6b0539bc6582700e80257686b689aec11c0178641b7833d"
+      sha256 "c4bed05b640dc80666cd74deef895de134bd384cb852a67f84b0fe33481bfb90"
     end
     on_arm do
       url "https://github.com/athvin/duck-fleet/releases/download/duckfleet-v0.4.0/duckfleet-0.4.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "9c46a60f9a7d212724ba977b85aeab97ddd0229373fd9cf82bfb9fdee79f0669"
+      sha256 "0d93111328310c7f2c45b6c6968effd0ceb00b2ec6523dc74276fa9452a8cdd3"
     end
   end
 
