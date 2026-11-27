@@ -26,9 +26,7 @@ class DbtDuckfleet < Formula
     end
   end
 
-  # Installs a `dbt` command; it replaces any other dbt on PATH.
-  conflicts_with "dbt", because: "both install a `dbt` binary"
-
+  # Installs a `dbt` command: unlink any other dbt (pip, pipx) on PATH first.
   def install
     bin.install "dbt"
   end
