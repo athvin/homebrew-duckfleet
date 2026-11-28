@@ -1,28 +1,28 @@
 class DbtDuckfleet < Formula
   desc "dbt-core v2 with DuckFleet as a built-in adapter"
   homepage "https://github.com/athvin/dbt"
-  version "0.1.8"
+  version "0.1.9"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/athvin/dbt/releases/download/duckfleet-v0.1.8/dbt-darwin-aarch64.tar.gz"
-      sha256 "078f85aa215e36f5dd092838fe00dfe883f13708448873471ce28119f9917f4d"
+      url "https://github.com/athvin/dbt/releases/download/duckfleet-v0.1.9/dbt-darwin-aarch64.tar.gz"
+      sha256 "016cccb2275d08665e9c2b584f822c95928986f790a8141c3e9de2c6c2e250d6"
     end
     on_intel do
-      url "https://github.com/athvin/dbt/releases/download/duckfleet-v0.1.8/dbt-darwin-x86_64.tar.gz"
-      sha256 "4a55b0ade762f0e1bf2ce084d61d63853ffe070f66588e5a01152d7df66236b5"
+      url "https://github.com/athvin/dbt/releases/download/duckfleet-v0.1.9/dbt-darwin-x86_64.tar.gz"
+      sha256 "487bfdf4de3414bd95787ad7d872717b1fd904dcd935faf132037fa904581e53"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/athvin/dbt/releases/download/duckfleet-v0.1.8/dbt-linux-aarch64.tar.gz"
-      sha256 "01347af1bc5472ba8d81bf680721eca8075a8765c58bc6def7990366c3b2a89b"
+      url "https://github.com/athvin/dbt/releases/download/duckfleet-v0.1.9/dbt-linux-aarch64.tar.gz"
+      sha256 "263356797ff133d4790ea5071b80d93bf035aaa0e5b022adcb704ff657f329f5"
     end
     on_intel do
-      url "https://github.com/athvin/dbt/releases/download/duckfleet-v0.1.8/dbt-linux-x86_64.tar.gz"
-      sha256 "16b7bef607f640e6558bef35e919907ff95c7aca64c6ae6d4eec40d6fe1859af"
+      url "https://github.com/athvin/dbt/releases/download/duckfleet-v0.1.9/dbt-linux-x86_64.tar.gz"
+      sha256 "08430d7fff273589d3972973cd81a8fad32238d9c8e2f83821b8d751b8fb9520"
     end
   end
 
